@@ -3,7 +3,7 @@ var menuIconColorsObj = {
   iconStrokeColor    : "#8baff3ad",
   iconSolidColor     : "#8baff3ad",
   iconFillColor      : "#d4ebf9",
-  iconStrokeColorAlt : "#5A8DEE"
+  iconStrokeColorAlt : "#4A9622"
 };
 
 
@@ -12,5 +12,5 @@ var menuActiveIconColorsObj = {
   iconStrokeColor    : "#8baff3ad",
   iconSolidColor     : "#8baff3ad",
   iconFillColor      : "#d4ebf9",
-  iconStrokeColorAlt : "#5A8DEE"
+  iconStrokeColorAlt : "#4A9622"
 };

@@ -133,7 +133,7 @@ $(function () {
     // if active class available icon color primary blue else gray
     if ($this.hasClass('active')) {
       $this.find(".livicon-evo").updateLiviconEvo({
-        strokeColor: '#5A8DEE'
+        strokeColor: '#4A9622'
       });
       todoAppMenu.find(".list-group a").not(".active").find(".livicon-evo").updateLiviconEvo({
         strokeColor: '#475f7b'

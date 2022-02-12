@@ -3,7 +3,7 @@
 /* eslint-disable require-jsdoc, no-unused-vars */
 
 var CalendarList = [],
-  primaryColor = "#5A8DEE",
+  primaryColor = "#4A9622",
   primaryLight = "#E2ECFF",
   secondaryColor = "#475F7B",
   secondaryLight = "#E6EAEE",

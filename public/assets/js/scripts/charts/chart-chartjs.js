@@ -10,7 +10,7 @@
 
 $(window).on("load", function () {
 
-  var $primary = '#5A8DEE',
+  var $primary = '#4A9622',
     $success = '#39DA8A',
     $danger = '#FF5B5C',
     $warning = '#FDAC41',
@@ -19,7 +19,7 @@ $(window).on("load", function () {
     grid_line_color = '#dae1e7',
     scatter_grid_color = '#f3f3f3',
     $scatter_point_light = '#E6EAEE',
-    $scatter_point_dark = '#5A8DEE',
+    $scatter_point_dark = '#4A9622',
     $white = '#fff',
     $black = '#000';
 

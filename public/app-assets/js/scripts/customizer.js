@@ -12,7 +12,7 @@
   'use strict';
   // main menu active gradient colors object
   var themeColor = {
-    "theme-primary": "rgba(90, 141, 238, 0.2)",
+    "theme-primary": "rgba(74, 150, 34, 0.2)",
     "theme-success": "rgba(57, 218, 138, 0.2)",
     "theme-danger": "rgba(255, 91, 92, 0.2)",
     "theme-info": "rgba(0, 207, 221, 0.2)",
@@ -21,7 +21,7 @@
   }
   // main menu active box shadow object
   var themeBoxShadow = {
-    "theme-primary": "0 0 10px 1px rgba(90, 141, 238, 0.2)",
+    "theme-primary": "0 0 10px 1px rgba(74, 150, 34, 0.2)",
     "theme-success": "0 0 10px 1px rgba(57, 218, 138, 0.2)",
     "theme-danger": "0 0 10px 1px rgba(255, 91, 92, 0.2)",
     "theme-info": "0 0 10px 1px rgba(0, 207, 221, 0.2)",
@@ -31,7 +31,7 @@
   // colors for navbar header text of main menu
   var currentColor = {
     "theme-default": "#FFFFFF",
-    "theme-primary": "#5A8DEE",
+    "theme-primary": "#4A9622",
     "theme-success": "#39DA8A",
     "theme-danger": "#FF5B5C",
     "theme-info": "#00CFDD",

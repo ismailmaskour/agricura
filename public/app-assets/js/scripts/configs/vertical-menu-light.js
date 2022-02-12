@@ -9,8 +9,8 @@ var menuIconColorsObj = {
 
 // Active Menu Icon Color Config
 var menuActiveIconColorsObj = {
-  iconStrokeColor    : "#5A8DEE",
-  iconSolidColor     : "#5A8DEE",
+  iconStrokeColor    : "#4A9622",
+  iconSolidColor     : "#4A9622",
   iconFillColor      : "#d4ebf9",
   iconStrokeColorAlt : "#E67E22"
 };

@@ -251,7 +251,7 @@ $(document).ready(function () {
       message: '<div class="bx bx-revision icon-spin font-medium-2"></div>',
       timeout: 2000, //unblock after 2 seconds
       overlayCSS: {
-        backgroundColor: '#5A8DEE',
+        backgroundColor: '#4A9622',
         opacity: 1,
         cursor: 'wait'
       },

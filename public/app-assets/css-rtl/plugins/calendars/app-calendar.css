@@ -109,7 +109,7 @@
 }
 
 .calendar-wrapper .calendar-view .calendar-content .tui-full-calendar-popup .tui-full-calendar-popup-container .tui-full-calendar-popup-section .tui-full-calendar-dropdown-menu li[data-calendar-id='2'] .tui-full-calendar-calendar-dot {
-  background-color : #5A8DEE !important;
+  background-color : #4A9622 !important;
 }
 
 .calendar-wrapper .calendar-view .calendar-content .tui-full-calendar-popup .tui-full-calendar-popup-container .tui-full-calendar-popup-section .tui-full-calendar-dropdown-menu li[data-calendar-id='3'] .tui-full-calendar-calendar-dot {
@@ -137,8 +137,8 @@
 }
 
 .calendar-wrapper .calendar-view .calendar-content .tui-full-calendar-popup .tui-full-calendar-popup-container .tui-full-calendar-section-button-save button {
-  background-color : #5A8DEE;
-  box-shadow : 0 2px 4px 0 rgba(90, 141, 238, 0.4);
+  background-color : #4A9622;
+  box-shadow : 0 2px 4px 0 rgba(74, 150, 34, 0.4);
 }
 
 .calendar-wrapper .calendar-view .calendar-content .tui-full-calendar-popup .tui-full-calendar-popup-arrow {
@@ -199,8 +199,8 @@
 }
 
 .calendar-wrapper .calendar-view .calendar-content .tui-full-calendar-popup.tui-full-calendar-popup-detail .tui-full-calendar-section-button .tui-full-calendar-popup-edit {
-  background-color : #5A8DEE;
-  box-shadow : 0 2px 4px 0 rgba(90, 141, 238, 0.4);
+  background-color : #4A9622;
+  box-shadow : 0 2px 4px 0 rgba(74, 150, 34, 0.4);
 }
 
 .calendar-wrapper .calendar-view .calendar-content .tui-full-calendar-popup.tui-full-calendar-popup-detail .tui-full-calendar-section-button .tui-full-calendar-popup-delete {

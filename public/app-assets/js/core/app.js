@@ -13,7 +13,7 @@
   var $html = $("html")
   var $body = $("body")
   var $danger = "#FF5B5C"
-  var $primary = "#5A8DEE"
+  var $primary = "#4A9622"
   var $primary_lighten = "#e7edf3"
   var $warning = "#FDAC41"
   var $textcolor = "#304156"

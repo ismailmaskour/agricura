@@ -9,7 +9,7 @@
 ==========================================================================================*/
 $(document).ready(function () {
   // color variable define here
-  var $primary = '#5A8DEE',
+  var $primary = '#4A9622',
     $danger = '#FF5B5C',
     $warning = '#FDAC41',
     $primary_light = '#6999f3',

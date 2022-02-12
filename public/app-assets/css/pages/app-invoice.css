@@ -40,7 +40,7 @@
 }
 
 .invoice-view-wrapper .invoice-action-wrapper .invoice-action-btn .invoice-send-btn {
-  box-shadow: 0 2px 4px 0 rgba(90, 141, 238, 0.6);
+  box-shadow: 0 2px 4px 0 rgba(74, 150, 34, 0.6);
 }
 
 .invoice-list-wrapper .dataTables_wrapper .top {
@@ -169,7 +169,7 @@
   transform: rotate(-45deg);
   height: 0.4rem;
   width: 0.8rem;
-  border-color: #5A8DEE;
+  border-color: #4A9622;
   border-radius: 0;
   border-width: 2px;
   top: 6px;
@@ -236,7 +236,7 @@
 }
 
 .invoice-edit-wrapper .subtotal-preview-btn {
-  box-shadow: 0 2px 4px 0 rgba(90, 141, 238, 0.4);
+  box-shadow: 0 2px 4px 0 rgba(74, 150, 34, 0.4);
 }
 
 .invoice-edit-wrapper .invoice-action-wrapper {
@@ -244,7 +244,7 @@
 }
 
 .invoice-edit-wrapper .invoice-action-wrapper .invoice-action-btn .invoice-send-btn {
-  box-shadow: 0 2px 4px 0 rgba(90, 141, 238, 0.6);
+  box-shadow: 0 2px 4px 0 rgba(74, 150, 34, 0.6);
 }
 
 .invoice-edit-wrapper .invoice-terms .invoice-terms-title {

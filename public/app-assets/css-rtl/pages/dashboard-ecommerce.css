@@ -25,8 +25,8 @@
 #widget-earnings .widget-earnings-swiper.swiper-container .swiper-slide.swiper-slide-active {
   /* swiper slide active */
   color : #FFFFFF;
-  background-color : #5A8DEE !important;
-  box-shadow : 0 3px 6px 0 rgba(90, 141, 238, 0.5) !important;
+  background-color : #4A9622 !important;
+  box-shadow : 0 3px 6px 0 rgba(74, 150, 34, 0.5) !important;
 }
 
 #widget-earnings .wrapper-content {

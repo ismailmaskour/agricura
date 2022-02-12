@@ -168,14 +168,14 @@
 }
 
 .horizontal-menu .navbar-expand-sm .navbar-nav > li li:not(.sidebar-group-active).active a {
-  background: rgba(90, 141, 238, 0.2) !important;
-  color: #5A8DEE !important;
-  border-left: 4px solid #5A8DEE;
+  background: rgba(74, 150, 34, 0.2) !important;
+  color: #4A9622 !important;
+  border-left: 4px solid #4A9622;
   padding-left: 1rem !important;
 }
 
 .horizontal-menu .navbar-expand-sm .navbar-nav > li li:not(.sidebar-group-active).active a i {
-  color: #5A8DEE;
+  color: #4A9622;
 }
 
 .horizontal-menu .navbar-expand-sm .navbar-nav > li li.sidebar-group-active {
@@ -183,18 +183,18 @@
 }
 
 .horizontal-menu .navbar-expand-sm .navbar-nav > li li.sidebar-group-active > a > i {
-  color: #5A8DEE !important;
+  color: #4A9622 !important;
 }
 
 .horizontal-menu .navbar-expand-sm .navbar-nav > li li.sidebar-group-active .dropdown-menu li:not(.sidebar-group-active).active a {
-  background: rgba(90, 141, 238, 0.2);
-  color: #5A8DEE;
-  border-left: 4px solid #5A8DEE;
+  background: rgba(74, 150, 34, 0.2);
+  color: #4A9622;
+  border-left: 4px solid #4A9622;
   padding-left: 1.4rem;
 }
 
 .horizontal-menu .navbar-expand-sm .navbar-nav > li li.sidebar-group-active .dropdown-menu li:not(.sidebar-group-active).active a i {
-  color: #5A8DEE;
+  color: #4A9622;
 }
 
 .horizontal-menu .navbar-expand-sm .navbar-nav .dropdown.show > .dropdown-menu {

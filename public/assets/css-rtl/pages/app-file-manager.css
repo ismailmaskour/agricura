@@ -74,14 +74,14 @@
 }
 
 .file-manager-application .content-area-wrapper .sidebar .app-file-sidebar .app-file-sidebar-left .list-group .list-group-item.active {
-  color : #5A8DEE;
+  color : #4A9622;
 }
 
 .file-manager-application .content-area-wrapper .sidebar .app-file-sidebar .app-file-sidebar-left .list-group .list-group-item.active::before {
   content : '';
   width : 2px;
   height : 30px;
-  background-color : #5A8DEE;
+  background-color : #4A9622;
   position : absolute;
   right : -26px;
 }
@@ -127,7 +127,7 @@
 }
 
 .file-manager-application .content-area-wrapper .sidebar .app-file-sidebar-info .nav-tabs .nav-link:active, .file-manager-application .content-area-wrapper .sidebar .app-file-sidebar-info .nav-tabs .nav-link.active {
-  color : #5A8DEE !important;
+  color : #4A9622 !important;
 }
 
 .file-manager-application .content-area-wrapper .content-right {

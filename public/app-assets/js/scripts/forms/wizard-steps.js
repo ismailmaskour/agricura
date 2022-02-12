@@ -93,7 +93,7 @@ stepsValidation.validate({
 $(document).ready(function () {
   $(".current").find(".step-icon").addClass("bx bx-time-five");
   $(".current").find(".fonticon-wrap .livicon-evo").updateLiviconEvo({
-    strokeColor: '#5A8DEE'
+    strokeColor: '#4A9622'
   });
 });
 // Icon change on state
@@ -103,7 +103,7 @@ $(".actions [href='#next']").click(function () {
   $(".current").find(".step-icon").removeClass("bx bx-check-circle").addClass("bx bx-time-five");
   // live icon color change on next button's on click
   $(".current").find(".fonticon-wrap .livicon-evo").updateLiviconEvo({
-    strokeColor: '#5A8DEE'
+    strokeColor: '#4A9622'
   });
   $(".current").prev("li").find(".fonticon-wrap .livicon-evo").updateLiviconEvo({
     strokeColor: '#39DA8A'
@@ -112,7 +112,7 @@ $(".actions [href='#next']").click(function () {
 $(".actions [href='#previous']").click(function () {
   // live icon color change on next button's on click
   $(".current").find(".fonticon-wrap .livicon-evo").updateLiviconEvo({
-    strokeColor: '#5A8DEE'
+    strokeColor: '#4A9622'
   });
   $(".current").next("li").find(".fonticon-wrap .livicon-evo").updateLiviconEvo({
     strokeColor: '#adb5bd'

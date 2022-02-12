@@ -10,7 +10,7 @@
 
 (function (window, document, $) {
 
-  var $primary = '#5A8DEE';
+  var $primary = '#4A9622';
   var $danger = '#FF5B5C';
   var $warning = '#FDAC41';
   var $info = '#00CFDD';

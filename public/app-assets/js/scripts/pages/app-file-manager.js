@@ -18,7 +18,7 @@ $(function () {
     sideBarInfo = $(".app-file-sidebar-info"),
     app_file_content = $(".app-file-content"),
     app_file_sidebar_left = $(".app-file-sidebar-left"),
-    $primary = "#5A8DEE";
+    $primary = "#4A9622";
 
   // To add Perfect Scrollbar
   // ---------------------------

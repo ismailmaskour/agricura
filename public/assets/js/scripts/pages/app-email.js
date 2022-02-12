@@ -20,7 +20,7 @@ $(function () {
     email_user_list = $(".email-user-list"),
     email_app_list = $(".email-app-list"),
     checkbox_con = $(".user-action .checkbox-con"),
-    $primary = "#5A8DEE";
+    $primary = "#4A9622";
 
   // To add Perfect Scrollbar
   // ---------------------------

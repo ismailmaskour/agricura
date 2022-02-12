@@ -17,8 +17,7 @@ class Auth extends BaseController
         return view('admin/authentication/login');
     }
 
-    public function login()
-    {
+    public function login(){
         // check if is loggedIn Start;
         if (session()->has('isLoggedIn')) {
             return redirect()->to('/');

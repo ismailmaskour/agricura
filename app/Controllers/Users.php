@@ -30,11 +30,13 @@ class Users extends BaseController
     public function add()
     {
 
+
+        $data['view'] = 'admin/users/add_user';
+        return view('layout', $data);
+//////////////////////////////////////////////////////////////
         helper(['form']);
 
-        $branchesModel = new BranchesModel();
         $rolesModel = new RolesModel();
-        $data['branches'] = $branchesModel->findAll();
         $data['roles'] = $rolesModel->findAll();
         $data['view'] = 'admin/users/add_user';
 
@@ -61,7 +63,6 @@ class Users extends BaseController
 
                 $userModel = new UsersModel();
                 $data = [
-
                     'firstname'  => $this->request->getVar('firstname'),
                     'lastname'   => $this->request->getVar('lastname'),
                     'adresse'    => $this->request->getVar('adresse'),

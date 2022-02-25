@@ -34,29 +34,42 @@
         </ul>
       </li>
 
-      <li class="nav-item"><a href=""><i class="menu-livicon" data-icon="stopwatch"></i><span class="menu-title" data-i18n="Coaches">Coaches</span></a>
+      <li class="nav-item"><a href=""><i class="menu-livicon" data-icon="stopwatch"></i><span class="menu-title" data-i18n="Coaches">Store</span></a>
         <ul class="menu-content">
-          <li><a href=""><i class="bx bx-right-arrow-alt"></i><span class="menu-item" data-i18n="view_Coaches">View All Coaches</span></a>
+          <li><a href="<?= base_url()?>/branches/"><i class="bx bx-right-arrow-alt"></i><span class="menu-item" data-i18n="view_Coaches">Store List</span></a>
           </li>
-          <li><a href=""><i class="bx bx-right-arrow-alt"></i><span class="menu-item" data-i18n="add_Coaches">Add Coache</span></a>
+          <li><a href="<?= base_url()?>/branches/add/"><i class="bx bx-right-arrow-alt"></i><span class="menu-item" data-i18n="add_Coaches">Add store</span></a>
           </li>
         </ul>
       </li>
 
-      <li class="nav-item"><a href=""><i class="menu-livicon" data-icon="users"></i><span class="menu-title" data-i18n="Members">Members</span></a>
+      <li class="nav-item"><a href=""><i class="menu-livicon" data-icon="users"></i><span class="menu-title" data-i18n="Members">Products</span></a>
         <ul class="menu-content">
-          <li><a href=""><i class="bx bx-right-arrow-alt"></i><span class="menu-item" data-i18n="view_Members">View All Members</span></a>
+          <li><a href="<?= base_url()?>/products/"><i class="bx bx-right-arrow-alt"></i><span class="menu-item" data-i18n="view_Members">View All Products</span></a>
           </li>
-          <li><a href=""><i class="bx bx-right-arrow-alt"></i><span class="menu-item" data-i18n="add_Members">Add Member</span></a>
+          <li><a href="<?= base_url()?>/products/add/"><i class="bx bx-right-arrow-alt"></i><span class="menu-item" data-i18n="add_Members">Add Product</span></a>
+          </li>
+          <li><a href="<?= base_url()?>/categories/"><i class="bx bx-right-arrow-alt"></i><span class="menu-item" data-i18n="view_Members">View All Categories</span></a>
+          </li>
+          <li><a href="<?= base_url()?>/categories/add/"><i class="bx bx-right-arrow-alt"></i><span class="menu-item" data-i18n="add_Members">Add Category</span></a>
           </li>
         </ul>
       </li>
 
-      <li class="nav-item"><a href=""><i class="menu-livicon" data-icon="diagram"></i><span class="menu-title" data-i18n="Branches">Branches</span></a>
+      <li class="nav-item"><a href=""><i class="menu-livicon" data-icon="diagram"></i><span class="menu-title" data-i18n="Branches">Commande</span></a>
         <ul class="menu-content">
-          <li><a href=""><i class="bx bx-right-arrow-alt"></i><span class="menu-item" data-i18n="view_Branches">View All Branches</span></a>
+          <li><a href=""><i class="bx bx-right-arrow-alt"></i><span class="menu-item" data-i18n="view_Branches">View All Commandes</span></a>
           </li>
-          <li><a href=""><i class="bx bx-right-arrow-alt"></i><span class="menu-item" data-i18n="add_Branches">Add Branches</span></a>
+          <li><a href=""><i class="bx bx-right-arrow-alt"></i><span class="menu-item" data-i18n="add_Branches">Add commande</span></a>
+          </li>
+        </ul>
+      </li>
+
+      <li class="nav-item"><a href=""><i class="menu-livicon" data-icon="users"></i><span class="menu-title" data-i18n="Branches">Customers</span></a>
+        <ul class="menu-content">
+          <li><a href="<?= base_url()?>/customers/"><i class="bx bx-right-arrow-alt"></i><span class="menu-item" data-i18n="view_Branches">View All Customers</span></a>
+          </li>
+          <li><a href="<?= base_url()?>/customers/add/">><i class="bx bx-right-arrow-alt"></i><span class="menu-item" data-i18n="add_Branches">Add Customer</span></a>
           </li>
         </ul>
       </li>

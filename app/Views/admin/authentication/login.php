@@ -6,12 +6,9 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
-    <meta name="description" content="Frest admin is super flexible, powerful, clean &amp; modern responsive bootstrap 4 admin template with unlimited possibilities.">
-    <meta name="keywords" content="admin template, Frest admin template, dashboard template, flat admin template, responsive admin template, web app">
-    <meta name="author" content="PIXINVENT">
-    <title>Login Page - Frest - Bootstrap HTML admin template</title>
+    <title>Login - AGRICURA</title>
     <link rel="apple-touch-icon" href="<?= base_url() ?>/public/app-assets/images/ico/apple-icon-120.png">
-    <link rel="shortcut icon" type="image/x-icon" href="<?= base_url() ?>/public/app-assets/images/ico/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="<?= base_url() ?>/public/assets/images/ico/favicon.png">
     <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,600%7CIBM+Plex+Sans:300,400,500,600,700" rel="stylesheet">
 
     <!-- BEGIN: Vendor CSS-->
@@ -73,7 +70,7 @@
                                                     </div>
                                                 <?php endif; ?>
                                                 
-                                                <form action="<?= base_url('auth/login') ?>" method="POST">
+                                                <form action="<?= base_url('auth/login') ?>" method="POST" autocomplete="off">
                                                     <div class="form-group mb-50">
                                                         <label class="text-bold-600" for="email">Email address</label>
                                                         <input type="email" name="email" class="form-control" id="email" placeholder="Email address">

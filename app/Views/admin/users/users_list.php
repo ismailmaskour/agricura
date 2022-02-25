@@ -3,55 +3,16 @@
 <div class="content-body">
     <!-- users list start -->
     <section class="users-list-wrapper">
-        <div class="users-list-filter px-1">
-            <form>
-                <div class="row border rounded py-2 mb-2">
-                    <div class="col-12 col-sm-6 col-lg-3">
-                        <label for="users-list-verified">Branche</label>
-                        <fieldset class="form-group">
-                            <select class="form-control" id="users-list-verified">
-                                <option value="">Any</option>
-                                <option value="Casablanca">Casablanca</option>
-                                <option value="Rabat">Rabat</option>
-                            </select>
-                        </fieldset>
-                    </div>
-                    <div class="col-12 col-sm-6 col-lg-3">
-                        <label for="users-list-role">Role</label>
-                        <fieldset class="form-group">
-                            <select class="form-control" id="users-list-role">
-                                <option value="">Any</option>
-                                <option value="Responsible">Responsible</option>
-                                <option value="Administrator">Administrator</option>
-                            </select>
-                        </fieldset>
-                    </div>
-                    <div class="col-12 col-sm-6 col-lg-3">
-                        <label for="users-list-status">Status</label>
-                        <fieldset class="form-group">
-                            <select class="form-control" id="users-list-status">
-                                <option value="">Any</option>
-                                <option value="Active">Active</option>
-                                <option value="Disabled">Disabled</option>
-                            </select>
-                        </fieldset>
-                    </div>
-                    <div class="col-12 col-sm-6 col-lg-3 d-flex align-items-center">
-                        <button type="reset" class="btn btn-primary btn-block glow users-list-clear mb-0">Clear</button>
-                    </div>
-                </div>
-            </form>
-        </div>
+       
         <div class="users-list-table">
             <div class="card">
                 <div class="card-content">
                     <div class="card-body">
                         <!-- datatable start -->
                         <div class="table-responsive">
-                            <table id="users-list-datatable" class="table">
+                            <table class="table">
                                 <thead>
                                     <tr>
-                                        <th></th>
                                         <th>Full Name</th>
                                         <th>Email</th>
                                         <th>Mobile N°</th>
@@ -64,20 +25,14 @@
                                 <tbody>
                                     <?php foreach ($usersList as $row) : ?>
                                         <tr>
-                                            <td>
-                                                <div class="avatar mr-1">
-                                                    <img src="<?= base_url() ?>/public/app-assets/images/portrait/small/avatar-s-20.jpg" alt="avtar img holder" width="32" height="32">
-                                                    <span class="avatar-status-online"></span>
-                                                </div>
-                                            </td>
                                             <td><?= $row['firstname'] . ' ' . $row['lastname']; ?></td>
                                             <td><?= $row['email']; ?></td>
-                                            <td><?= $row['mobile_no']; ?></td>
-                                            <td><?= $row['adresse']; ?></td>
+                                            <td><?= $row['phone']; ?></td>
+                                            <td><?= $row['address']; ?></td>
                                             <td>
                                                 <div class="chip chip-warning mr-1">
                                                     <div class="chip-body">
-                                                        <span class="chip-text"><?= $row['jobTitle']; ?></span>
+                                                        <span class="chip-text"><?= $row['role']; ?></span>
                                                     </div>
                                                 </div>
                                             </td>
